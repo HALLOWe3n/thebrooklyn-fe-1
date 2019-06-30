@@ -1,0 +1,49 @@
+.MainWrapper {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #fbab00 0.48%,
+    rgba(252, 182, 32, 0.69) 99.6%
+  );
+}
+.InnerWrapper_Text {
+  width: 30.5rem;
+  padding: 14.9375rem 0 15.375rem 3.8125rem;
+}
+.Title {
+  margin: 0;
+  font-family: "Night Machine";
+  text-transform: uppercase;
+  font-size: 3.875rem;
+  line-height: 4.4375rem;
+  letter-spacing: 0.02em;
+}
+.Text {
+  margin: 7px 0 18px;
+  font-weight: 500;
+  font-size: 2.375rem;
+  line-height: 2.8125rem;
+}
+.Text_Soon {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+.Button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  padding: 0.9375rem 3.75rem;
+}
+.Button:hover {
+  background-color: #000000;
+  color: #fcb620;
+}

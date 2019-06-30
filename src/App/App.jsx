@@ -1,21 +1,13 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import { asyncData } from "../redux/action/fetchAction";
-// import s from "./App.module.css";
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import MainPage from "../Containers/MainPage";
 
-class App extends Component {
-  componentDidMount() {
-    this.props.fetch();
-  }
-  render() {
-    return <div />;
-  }
-}
-const mapDispathToProps = dispatch => ({
-  fetch: () => dispatch(asyncData())
-});
+const App = () => {
+  return (
+    <Switch>
+      <Route exact path="/" component={MainPage} />
+    </Switch>
+  );
+};
 
-export default connect(
-  null,
-  mapDispathToProps
-)(App);
+export default App;

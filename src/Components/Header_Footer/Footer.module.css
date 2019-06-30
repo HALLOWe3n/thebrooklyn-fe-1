@@ -1,0 +1,13 @@
+.Footer {
+  width: 100%;
+  background-color: #000000;
+}
+.Text {
+  margin: 0;
+  padding: 1.6875rem 0 1.6875rem 4.6875rem;
+  font-family: "Night Machine";
+  font-size: 2.25rem;
+  line-height: 2.5625rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}

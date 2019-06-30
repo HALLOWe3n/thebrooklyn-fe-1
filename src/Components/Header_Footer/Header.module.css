@@ -1,0 +1,70 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.Logo {
+  width: 3.25rem;
+  height: 2.875rem;
+  margin-left: 4.6%;
+}
+.Logo_Link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Night Machine";
+  font-size: 2.5rem;
+  letter-spacing: 0.01em;
+}
+.Menu {
+  align-self: center;
+}
+.Menu_Items {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 2.3125rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.Menu_Items__Last {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.Menu_Items:hover,
+.Menu_Items__Last:hover {
+  color: #fcb620;
+}
+.Menu_Items__Last::after {
+  content: "";
+  background-color: #ffffff;
+  display: inline-block;
+  width: 31px;
+  height: 1px;
+  vertical-align: middle;
+  transform: translateX(0.75rem) rotate(90deg);
+}
+.Login,
+.Sign {
+  border: none;
+  background-color: transparent;
+  color: #fcb620;
+  cursor: pointer;
+  padding: 0.625rem 1.5625rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  outline: none;
+}
+.Sign {
+  margin-right: 4.6875rem;
+}
+
+.Login:hover,
+.Sign:hover {
+  color: #000000;
+  background-color: #fcb620;
+}
