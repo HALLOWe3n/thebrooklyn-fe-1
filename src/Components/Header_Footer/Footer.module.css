@@ -1,5 +1,7 @@
 .Footer {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   background-color: #000000;
 }
 .Text {
@@ -10,4 +12,40 @@
   line-height: 2.5625rem;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.Wrapper_Links {
+  display: flex;
+  padding: 2.1875rem 5.375rem 2.1875rem;
+  width: 12%;
+  justify-content: space-between;
+}
+.Instagram {
+  display: block;
+  cursor: pointer;
+  width: 2.0625rem;
+  height: 2.0625rem;
+  background-image: url("../../assets/icons/instagram-brands.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Facebook {
+  display: block;
+  cursor: pointer;
+  width: 2.0625rem;
+  height: 2.0625rem;
+  background-image: url("../../assets/icons/facebook-f-brands.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Twitter {
+  display: block;
+  cursor: pointer;
+  width: 2.0625rem;
+  height: 2.0625rem;
+  background-image: url("../../assets/icons/twitter-brands.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }

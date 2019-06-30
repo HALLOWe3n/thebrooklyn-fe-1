@@ -1,13 +1,16 @@
 .MainWrapper {
   width: 100%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     #fbab00 0.48%,
     rgba(252, 182, 32, 0.69) 99.6%
-  );
+  ); */
+  background-image: url("../../assets/img/1920.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .InnerWrapper_Text {
-  width: 30.5rem;
+  width: 30.3125rem;
   padding: 14.9375rem 0 15.375rem 3.8125rem;
 }
 .Title {

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={s.Header}>
       <h1 className={s.Logo}>
-        <a className={s.Logo_Link} href="#">
+        <a className={s.Logo_Link} href="/">
           br
         </a>
       </h1>
